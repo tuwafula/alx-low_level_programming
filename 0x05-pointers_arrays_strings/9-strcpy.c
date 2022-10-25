@@ -1,5 +1,4 @@
 #include "main.h"
-
 /** 
  * _strlen - returns the length of a string
  * @s: string
@@ -38,13 +37,13 @@ char *_strcpy(char *dest, char *src)
 	return (dest);
 }
 
-/* *
+/*
  * another method using pointer notation
 char *_strcpy(char *dest, char *src)
 {
-        while (*src)
+	while (*src)
 	{
- 	   *dest = *src;
+ 	  *dest = *src;
 	   src++;
 	   dest++;
 	}
