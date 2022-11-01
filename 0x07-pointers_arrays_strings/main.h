@@ -1,3 +1,6 @@
+#ifndef ALX_H
+#define ALX_H
+
 /**
  * _putchar - puts character to standard output
  * @c: character to put to standard output
